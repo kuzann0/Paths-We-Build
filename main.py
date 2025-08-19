@@ -122,7 +122,7 @@ def show_title():
     final_step_msg_shown = False
     support_unlocked = False
     support_used = False
-    players_reached_goal = [False, False]  # ✅ reset at title
+    players_reached_goal = [False, False]  #  reset at title
 
     screen.clear()
     screen.bgcolor("white")
@@ -163,7 +163,7 @@ def start_game():
     catchup_blocks = []
     support_unlocked = False
     support_used = False
-    players_reached_goal = [False, False]  # ✅ reset state
+    players_reached_goal = [False, False]  #  reset state
 
     players = [create_player(-200), create_player(200)]
     life_labels = [create_life_label(players[0]), create_life_label(players[1])]
